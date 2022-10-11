@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/background_color"
         tools:context=".HomeFragment">
 
         <TextView
@@ -18,7 +19,7 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:gravity="center"
-            android:textColor="@color/black"
+            android:textColor="@color/app_name_color"
             android:text="@string/book_share_application"
             android:textSize="34sp" />
     </LinearLayout>
