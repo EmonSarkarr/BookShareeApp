@@ -14,11 +14,11 @@
         android:background="@color/background_color">
 
         <ImageView
-            android:layout_marginTop="150dp"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:background="@drawable/book_logo2"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/book_logo2">
 
         </ImageView>
 
@@ -30,7 +30,7 @@
             android:text="@string/bookshare"
             android:layout_gravity="center"
             android:textSize="50dp"
-            android:id="@+id/home_feed_action"
+
             android:textColor="@color/app_name_color"
             android:gravity="center">
         </TextView>
@@ -38,19 +38,38 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/start"
-            android:id="@+id/home_feed_action2"
+            android:id="@+id/home_feed_action"
             android:layout_gravity="center">
 
         </Button>
+<TextView
+    android:id="@+id/addBookAction"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textStyle="italic"
+    android:text="@string/create_add_a_post">
+
+</TextView>
 
         <TextView
-            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_feed_action2"
+            android:text="@string/signin"
+            android:layout_gravity="center"
+            android:textColor="@color/app_name_color"
+            android:textStyle="italic"
+            android:textSize="15dp"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/v"
             android:gravity="center"
             android:layout_gravity="center">
-
         </TextView>
     </LinearLayout>
 </layout>

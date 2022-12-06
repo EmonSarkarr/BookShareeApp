@@ -2,7 +2,7 @@
     <string name="app_name">BookShareApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="book_share_application">Book Share Application</string>
+    <string name="book_share_application">Book Share App</string>
     <string name="book_share_app">Book Share App</string>
     <string name="bookshare">BookShare</string>
     <string name="email_id">Email id</string>
@@ -14,4 +14,11 @@
     <string name="create_new_account">Create New Account</string>
     <string name="v">V 1.0</string>
     <string name="start">Start</string>
+    <string name="fetchdata">FetchData</string>
+    <string name="signin">signin</string>
+    <string name="create_add_a_post">Create / add a post</string>
+    <string name="write_a_description">Write a Description</string>
+    <string name="write_a_location">Write a Location</string>
+    <string name="write_a_title">Write a Title</string>
+    <string name="make_a_post">make a post</string>
 </resources>

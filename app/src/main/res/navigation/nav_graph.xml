@@ -21,7 +21,19 @@
         android:label="fragment_blink"
         tools:layout="@layout/fragment_blink" >
         <action
-            android:id="@+id/blinkFragmant_to_homeF"
+            android:id="@+id/action_blinkFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/blink_to_addBook_action"
+            app:destination="@id/addBookFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addBookFragment"
+        android:name="com.example.bookshareapp.AddBookFragment"
+        android:label="fragment_add_book"
+        tools:layout="@layout/fragment_add_book" >
+        <action
+            android:id="@+id/add_to_home_fragment"
             app:destination="@id/homeFragment" />
     </fragment>
 </navigation>

@@ -22,12 +22,13 @@ public class BlinkFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
        binding = FragmentBlinkBinding.inflate(inflater,container,false);
-        binding.homeFeedAction.setOnClickListener(view ->                                                  //navigate
-                Navigation.findNavController(container).navigate(R.id.blinkFragmant_to_homeF)
+
+
+        binding.addBookAction.setOnClickListener(view ->                                                  //navigate
+                Navigation.findNavController(container).navigate(R.id.blink_to_addBook_action)
         );
-        binding.homeFeedAction2.setOnClickListener(view ->                                                  //navigate
-                Navigation.findNavController(container).navigate(R.id.blinkFragmant_to_homeF)
-        );
+
+
         return binding.getRoot();
     }
 }
