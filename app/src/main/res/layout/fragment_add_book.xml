@@ -13,12 +13,33 @@
         android:gravity="center"
         android:background="@color/background_color"
         tools:context=".AddBookFragment">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:background="@drawable/book_logo2">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bookshare"
+            android:textStyle="bold"
+            android:layout_marginTop="1dp"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:textColor="@color/app_name_color">
+
+        </TextView>
 
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center">
+
+
 
             <ImageView
                 android:layout_width="50dp"
@@ -42,6 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:textStyle="bold"
                 style="@style/CardView.Dark"
                 android:text="@string/make_a_post">
 

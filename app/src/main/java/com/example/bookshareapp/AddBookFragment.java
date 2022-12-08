@@ -41,10 +41,7 @@ private DatabaseReference mDatabase;
                 savePost();
                 Navigation.findNavController(container).navigate(R.id.add_to_home_fragment);
             }
-
         });
-
-
         return binding.getRoot();
     }
 
@@ -61,7 +58,6 @@ private DatabaseReference mDatabase;
         mDatabase.child(key).setValue(bookDataClass);
 
         Toast.makeText(getActivity(), "Book LIst has been uploaded ....", Toast.LENGTH_LONG).show();
-
         binding.titleET.setText("");
         binding.descriptionET.setText("");
         binding.locationET.setText("");

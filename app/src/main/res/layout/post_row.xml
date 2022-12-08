@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:background="@color/background_color"
+        android:layout_height="wrap_content"
+
+        app:cardCornerRadius="8dp"
+        android:elevation="6dp"
+        app:contentPadding="6dp"
+        android:layout_margin="7dp"
+        app:cardBackgroundColor="#3C3813">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/userid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/app_name"
+                android:layout_marginEnd="8dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/descriptionTV"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="description/ title"
+                android:layout_marginEnd="8dp"
+                android:layout_below="@id/userid"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/locationTV"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:text="location"
+                android:layout_below="@+id/descriptionTV" />
+
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/rowAdminImage"
+                android:layout_below="@id/locationTV"
+                android:src="@drawable/person"
+                android:alpha="0.4"
+                android:scaleType="centerCrop" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</layout>

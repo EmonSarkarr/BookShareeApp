@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background_color">#DCF0FF</color>
     <color name="app_name_color">#0869FA</color>
+    <color name="loginBtn">#42f587</color>
 </resources>
